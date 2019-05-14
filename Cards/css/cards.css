@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+.card-list {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 332px;
+    vertical-align: top;
+    position: relative;
+}
+
+.card > footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card > footer > button {
+    display: block;
+    margin: 0 auto;
+}
+*/
+
+.card-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 300px;
+}
+
+.card-body {
+    flex:  1 0 0%;
+}
+
+.card > footer {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+/**
+.media {
+    position: relative;
+}
+
+.media img {
+   position: absolute;
+}
+
+.media section {
+    padding-left: 65px;
+}
+
+.comment section {
+    padding-left: 40px;
+}
+
+.media::after, .comment::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+*/
+
+.media, .comment {
+    display: flex;
+}
+
+.media section {
+    padding-left: 15px;
+}
+
+.comment section {
+    padding-left: 7px;
+}

@@ -1,0 +1,11 @@
+.wrap  {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse; 
+}
+
+.container .row .no-wrap {
+    flex-flow: row-reverse wrap;
+}
